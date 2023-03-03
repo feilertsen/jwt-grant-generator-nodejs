@@ -1,0 +1,17 @@
+{
+  "name": "jwt-grant-generator-nodejs",
+  "version": "1.0.0",
+  "description": "Maskinporten jwt grant example",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.mjs"
+  },
+  "author": "Fredrik Eilertsen",
+  "license": "MIT",
+  "dependencies": {
+    "guid-typescript": "^1.0.9",
+    "jose": "^4.6.0",
+    "jsrsasign": "^10.5.20",
+    "node-fetch": "^3.2.3"
+  }
+}
